@@ -5,11 +5,20 @@
     padding: 0px;
 }
 
+:root {
+    --color1: #121212;
+    --color2: #212121;
+    --color3: #535353;
+    --color4: #b3b3b3;
+    --color5: #1db954;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #272727;
+    background-color: var(--color2);
 }
 header {
+    background-image: linear-gradient(to bottom, var(--color1), var(--color2));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -36,6 +45,7 @@ nav {
     padding: 10px;
 }
 nav > a {
+    color: green;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -43,11 +53,11 @@ nav > a {
     transition: 0.5s;
 }
 nav > a:hover {
-    background-color: gray;
-    color: green;
+    background-color: var(--color3);
+    color: rgb(0, 224, 0);
 }
 main {
-    background-color: white;
+    background-color: var(--color3);
     margin: auto;
     padding: 20px;
     min-width: 300px;
@@ -55,7 +65,7 @@ main {
     margin-bottom: 30px;
 }
 main h1 {
-    color: green;
+    color: white;
     font-weight: normal;
 }
 main h2 {
@@ -71,7 +81,6 @@ main p {
     line-height: 1.5em;
 }
 footer {
-    background-color: ;
     color: white;
     text-align: center;
     font-size: 0.8em;
