@@ -45,7 +45,7 @@ nav {
     padding: 10px;
 }
 nav > a {
-    color: green;
+    color: var(--color3);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -53,28 +53,34 @@ nav > a {
     transition: 0.5s;
 }
 nav > a:hover {
-    background-color: var(--color3);
-    color: rgb(0, 224, 0);
+    background-color: var(--color4);
+    color: var(--color5);
 }
 main {
-    background-color: var(--color3);
+    background-color: #075E54;
     margin: auto;
     padding: 20px;
     min-width: 300px;
     max-width: 1000px;
     margin-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 main h1 {
     color: white;
-    font-weight: normal;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 main h2 {
-    color: greenyellow;
+    color: white;
     font-size: 1.3em;
     font-weight: normal;
     text-indent: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 main p {
+    color: white;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
