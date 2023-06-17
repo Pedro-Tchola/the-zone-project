@@ -25,7 +25,7 @@ header {
     padding: 30px;
 }
 header > h1 {
-    color: white;
+    color: rgba(255, 0, 0, 0.877);
     font-size: 3em;
     font-weight: bold;
     margin-bottom: 20px;
@@ -33,7 +33,7 @@ header > h1 {
 }
 header > p {
     font-size: 1.2em;
-    color: white;
+    color: rgb(254, 114, 114);
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
@@ -53,11 +53,11 @@ nav > a {
     transition: 0.5s;
 }
 nav > a:hover {
-    background-color: var(--color4);
-    color: var(--color5);
+    background-color: var(--color3);
+    color: rgb(231, 129, 129);
 }
 main {
-    background-color: #075E54;
+    background-color: rgba(234, 95, 95, 0.599);
     margin: auto;
     padding: 20px;
     min-width: 300px;
@@ -74,17 +74,48 @@ main h1 {
 main h2 {
     color: white;
     font-size: 1.3em;
-    font-weight: normal;
+    font-weight: 1px;
     text-indent: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-main p {
+article > p {
     color: white;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
     line-height: 1.5em;
+}
+#títulotext {
+    text-align: center;
+    font-size: 1.7em;
+}
+.subtítulo {
+    text-align: center;
+    text-indent: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.66);
+}
+aside {
+    background-color: rgba(234, 95, 95, 0.599);
+    color: white;
+    border-radius: 20px;
+    text-indent: 0px;
+    padding: 20px;
+}
+aside > h1, aside p {
+    margin: 10px;
+}
+aside > div:hover {
+    background-color: rgba(255, 92, 92, 0.675);
+    transform: scale(1.1);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+aside a {
+    text-decoration: none;
+    color: White;
 }
 footer {
     color: white;
